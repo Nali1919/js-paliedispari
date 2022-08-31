@@ -47,4 +47,17 @@ if (!isNaN(total)) {
 
 if (number > pc) {
 console.log('Vince utente')
-}else console.log('Vince pC')
+} else console.log('Vince pC')
+
+
+// Esercizio 2
+
+
+let word = prompt('inserisci una parola')
+let wordReverse = word.split("").reverse().join("");
+
+if (word === wordReverse) {
+  console.log('è palindroma');
+} else {
+  console.log('Non è palindroma');
+}
